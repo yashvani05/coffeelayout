@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+hr{
+    color: grey !important;
+
+}
+html{
+    /* font-size: 1.5rem; */
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --white-color:#fff ; 
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+body{
+    background:var(--bg) !important  ;
+  
+}
+header{
+    background: var(--bg) !important;
+    height: 121px !important;
+}
+.header .nav-link {
+    color:var(--white-color) !important; 
+    width: 5rem !important;
+   
+}
+.header .nav-link:hover{
+   color:var(--main-color) !important;
+   border-bottom: .1rem solid var(--main-color);
+   padding: .5rem;
+}
+
+.header .navbar-nav{
+    left: 200px !important;
+    position: relative !important;
+   
+}
+
+.navbar-toggler {
+    /* color: var(--white-color) !important; */
+    position: relative;
+    left: 331px;
+}
+.navbar-toggler:hover{
+     color: var(--main-color) !important; 
+}
+#search-btn,#cart-btn{
+     color: var(--white-color);
+    
+}
+#cart-btn:hover{
+    color:var(--main-color);
+}
+.batla:hover{
+    color:var(--main-color) !important;
+}
+.topic h2{
+    color: var(--white-color) !important;
+    width: 16rem;
+}
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+.btn{ 
+    color: #fff !important;
+    background: var(--main-color) !important;
+    cursor: pointer !important;
+}
+.topic{
+    margin-top: 10rem;
+}
+.topic p{
+    font-size: 15px;
+    font-weight: lighter;
+    color:var(--main-color) !important;
+    width: 16rem;
+}
+.topic span{
+    color: var(--main-color);
+}
+
+.menu small{
+    color: var(--main-color);
+}
+.content h3{
+    color: var(--main-color);
+}
+.aboutus img{
+    width: 100% !important;
+    display: flex !important;
+    right: 1rem !important;
+    position: relative;
+    
+}
+.menu .card {
+    background-color:var(--bg) !important;
+    background-clip: border-box;
+    border: 1px solid grey !important;
+    border-radius: 0.25rem;  
+    padding-top: 20px !important;
+}
+.meanu .card:hover{
+    background: var(--white-color) !important;
+    color: #010103 !important;
+}
+.menu .card img{
+    height: 100px !important;
+    width: 100px !important;
+  
+}
+.products .icons{
+    justify-content: space-evenly !important;
+
+    
+}
+
+.products .icons i{
+    font-size: 20px;
+    border: 1px solid grey !important;
+    padding: 15px !important;
+    margin: 4px !important;
+    color: var(--white-color);
+}
+.stars{
+    color: var(--main-color) !important;
+}
+
+.products .card img{
+    height: 200px !important;
+    width: 200px !important;
+  
+}
+.products .card {
+    background-color:var(--bg) !important;
+    background-clip: border-box;
+    border: 1px solid grey !important;
+    border-radius: 0.25rem;  
+    padding-top: 20px !important;
+}
+.products .card:hover{
+    background: var(--white-color) !important;
+    color: var(--black) !important;
+}
+.products .fas:hover{
+    background: var(--main-color) !important;
+    color: var(--black) !important;
+}
+
+
+.coustomer .card {
+    background-color:var(--bg) !important;
+    background-clip: border-box;
+    border: 1px solid grey !important;
+    border-radius: 0.25rem;  
+    padding-top: 20px !important;
+}
+.coustomer  .coustomer-img{
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 30px !important;
+  
+}
+
+.contact .map{
+    width:547px !important;
+    height: 366px !important;
+}
+.forms1{
+    width:100% !important;
+}
+
+
+.blogs .card {
+    background-color:var(--bg) !important;
+    background-clip: border-box;
+    border: 1px solid grey !important;
+    border-radius: 0.25rem;  
+    padding-top: 20px !important;
+}
+.blogs .card{
+    padding-top: 0 !important;
+   
+}
+.blogs .imageblog{
+    overflow: hidden !important;
+}
+.blogs img{
+    object-fit: cover;
+}
+.blogs img:hover{
+   transform: scale(1.1);
+}
+
+.footer i{
+    font-size: 20px;
+    padding: 15px !important;
+    margin: 4px !important;
+}
+.footer .navbar-nav{
+    margin: 0 409px 0 409px;
+  
+}
+.footer .nav-item{
+    border: 1px solid grey !important;
+    margin: 5px !important;
+
+}
+.footer a{
+    color: var(--white-color) !important;
+}
+.footer a:hover{
+    color: #010103 !important;
+}
+.footer .nav-item:hover{
+    background: var(--main-color) !important;
+}
